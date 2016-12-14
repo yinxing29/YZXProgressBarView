@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD350E7B1E00EAFA00B4EE70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD350E7A1E00EAFA00B4EE70 /* main.m */; };
+		BD350E7E1E00EAFA00B4EE70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD350E7D1E00EAFA00B4EE70 /* AppDelegate.m */; };
+		BD350E811E00EAFA00B4EE70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD350E801E00EAFA00B4EE70 /* ViewController.m */; };
+		BD350E841E00EAFA00B4EE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD350E821E00EAFA00B4EE70 /* Main.storyboard */; };
+		BD350E861E00EAFA00B4EE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD350E851E00EAFA00B4EE70 /* Assets.xcassets */; };
+		BD350E891E00EAFA00B4EE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD350E871E00EAFA00B4EE70 /* LaunchScreen.storyboard */; };
+		BD350E941E00EAFA00B4EE70 /* YZXProgressBarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD350E931E00EAFA00B4EE70 /* YZXProgressBarViewTests.m */; };
+		BD350E9F1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD350E9E1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD350E901E00EAFA00B4EE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD350E6E1E00EAFA00B4EE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD350E751E00EAFA00B4EE70;
+			remoteInfo = YZXProgressBarView;
+		};
+		BD350E9B1E00EAFA00B4EE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD350E6E1E00EAFA00B4EE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD350E751E00EAFA00B4EE70;
+			remoteInfo = YZXProgressBarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD350E761E00EAFA00B4EE70 /* YZXProgressBarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZXProgressBarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD350E7A1E00EAFA00B4EE70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD350E7C1E00EAFA00B4EE70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD350E7D1E00EAFA00B4EE70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD350E7F1E00EAFA00B4EE70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD350E801E00EAFA00B4EE70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD350E831E00EAFA00B4EE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD350E851E00EAFA00B4EE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD350E881E00EAFA00B4EE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD350E8A1E00EAFA00B4EE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD350E8F1E00EAFA00B4EE70 /* YZXProgressBarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZXProgressBarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD350E931E00EAFA00B4EE70 /* YZXProgressBarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXProgressBarViewTests.m; sourceTree = "<group>"; };
+		BD350E951E00EAFA00B4EE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD350E9A1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZXProgressBarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD350E9E1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXProgressBarViewUITests.m; sourceTree = "<group>"; };
+		BD350EA01E00EAFA00B4EE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD350E731E00EAFA00B4EE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD350E8C1E00EAFA00B4EE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD350E971E00EAFA00B4EE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD350E6D1E00EAFA00B4EE70 = {
+			isa = PBXGroup;
+			children = (
+				BD350E781E00EAFA00B4EE70 /* YZXProgressBarView */,
+				BD350E921E00EAFA00B4EE70 /* YZXProgressBarViewTests */,
+				BD350E9D1E00EAFA00B4EE70 /* YZXProgressBarViewUITests */,
+				BD350E771E00EAFA00B4EE70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD350E771E00EAFA00B4EE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD350E761E00EAFA00B4EE70 /* YZXProgressBarView.app */,
+				BD350E8F1E00EAFA00B4EE70 /* YZXProgressBarViewTests.xctest */,
+				BD350E9A1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD350E781E00EAFA00B4EE70 /* YZXProgressBarView */ = {
+			isa = PBXGroup;
+			children = (
+				BD350E7C1E00EAFA00B4EE70 /* AppDelegate.h */,
+				BD350E7D1E00EAFA00B4EE70 /* AppDelegate.m */,
+				BD350E7F1E00EAFA00B4EE70 /* ViewController.h */,
+				BD350E801E00EAFA00B4EE70 /* ViewController.m */,
+				BD350E821E00EAFA00B4EE70 /* Main.storyboard */,
+				BD350E851E00EAFA00B4EE70 /* Assets.xcassets */,
+				BD350E871E00EAFA00B4EE70 /* LaunchScreen.storyboard */,
+				BD350E8A1E00EAFA00B4EE70 /* Info.plist */,
+				BD350E791E00EAFA00B4EE70 /* Supporting Files */,
+			);
+			path = YZXProgressBarView;
+			sourceTree = "<group>";
+		};
+		BD350E791E00EAFA00B4EE70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD350E7A1E00EAFA00B4EE70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD350E921E00EAFA00B4EE70 /* YZXProgressBarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD350E931E00EAFA00B4EE70 /* YZXProgressBarViewTests.m */,
+				BD350E951E00EAFA00B4EE70 /* Info.plist */,
+			);
+			path = YZXProgressBarViewTests;
+			sourceTree = "<group>";
+		};
+		BD350E9D1E00EAFA00B4EE70 /* YZXProgressBarViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD350E9E1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.m */,
+				BD350EA01E00EAFA00B4EE70 /* Info.plist */,
+			);
+			path = YZXProgressBarViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD350E751E00EAFA00B4EE70 /* YZXProgressBarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD350EA31E00EAFA00B4EE70 /* Build configuration list for PBXNativeTarget "YZXProgressBarView" */;
+			buildPhases = (
+				BD350E721E00EAFA00B4EE70 /* Sources */,
+				BD350E731E00EAFA00B4EE70 /* Frameworks */,
+				BD350E741E00EAFA00B4EE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZXProgressBarView;
+			productName = YZXProgressBarView;
+			productReference = BD350E761E00EAFA00B4EE70 /* YZXProgressBarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD350E8E1E00EAFA00B4EE70 /* YZXProgressBarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD350EA61E00EAFA00B4EE70 /* Build configuration list for PBXNativeTarget "YZXProgressBarViewTests" */;
+			buildPhases = (
+				BD350E8B1E00EAFA00B4EE70 /* Sources */,
+				BD350E8C1E00EAFA00B4EE70 /* Frameworks */,
+				BD350E8D1E00EAFA00B4EE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD350E911E00EAFA00B4EE70 /* PBXTargetDependency */,
+			);
+			name = YZXProgressBarViewTests;
+			productName = YZXProgressBarViewTests;
+			productReference = BD350E8F1E00EAFA00B4EE70 /* YZXProgressBarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD350E991E00EAFA00B4EE70 /* YZXProgressBarViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD350EA91E00EAFA00B4EE70 /* Build configuration list for PBXNativeTarget "YZXProgressBarViewUITests" */;
+			buildPhases = (
+				BD350E961E00EAFA00B4EE70 /* Sources */,
+				BD350E971E00EAFA00B4EE70 /* Frameworks */,
+				BD350E981E00EAFA00B4EE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD350E9C1E00EAFA00B4EE70 /* PBXTargetDependency */,
+			);
+			name = YZXProgressBarViewUITests;
+			productName = YZXProgressBarViewUITests;
+			productReference = BD350E9A1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD350E6E1E00EAFA00B4EE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yinixng;
+				TargetAttributes = {
+					BD350E751E00EAFA00B4EE70 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					BD350E8E1E00EAFA00B4EE70 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD350E751E00EAFA00B4EE70;
+					};
+					BD350E991E00EAFA00B4EE70 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD350E751E00EAFA00B4EE70;
+					};
+				};
+			};
+			buildConfigurationList = BD350E711E00EAFA00B4EE70 /* Build configuration list for PBXProject "YZXProgressBarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD350E6D1E00EAFA00B4EE70;
+			productRefGroup = BD350E771E00EAFA00B4EE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD350E751E00EAFA00B4EE70 /* YZXProgressBarView */,
+				BD350E8E1E00EAFA00B4EE70 /* YZXProgressBarViewTests */,
+				BD350E991E00EAFA00B4EE70 /* YZXProgressBarViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD350E741E00EAFA00B4EE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD350E891E00EAFA00B4EE70 /* LaunchScreen.storyboard in Resources */,
+				BD350E861E00EAFA00B4EE70 /* Assets.xcassets in Resources */,
+				BD350E841E00EAFA00B4EE70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD350E8D1E00EAFA00B4EE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD350E981E00EAFA00B4EE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD350E721E00EAFA00B4EE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD350E811E00EAFA00B4EE70 /* ViewController.m in Sources */,
+				BD350E7E1E00EAFA00B4EE70 /* AppDelegate.m in Sources */,
+				BD350E7B1E00EAFA00B4EE70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD350E8B1E00EAFA00B4EE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD350E941E00EAFA00B4EE70 /* YZXProgressBarViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD350E961E00EAFA00B4EE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD350E9F1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD350E911E00EAFA00B4EE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD350E751E00EAFA00B4EE70 /* YZXProgressBarView */;
+			targetProxy = BD350E901E00EAFA00B4EE70 /* PBXContainerItemProxy */;
+		};
+		BD350E9C1E00EAFA00B4EE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD350E751E00EAFA00B4EE70 /* YZXProgressBarView */;
+			targetProxy = BD350E9B1E00EAFA00B4EE70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD350E821E00EAFA00B4EE70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD350E831E00EAFA00B4EE70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD350E871E00EAFA00B4EE70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD350E881E00EAFA00B4EE70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD350EA11E00EAFA00B4EE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD350EA21E00EAFA00B4EE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD350EA41E00EAFA00B4EE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZXProgressBarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.YZXProgressBarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD350EA51E00EAFA00B4EE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZXProgressBarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.YZXProgressBarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD350EA71E00EAFA00B4EE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZXProgressBarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.YZXProgressBarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZXProgressBarView.app/YZXProgressBarView";
+			};
+			name = Debug;
+		};
+		BD350EA81E00EAFA00B4EE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZXProgressBarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.YZXProgressBarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZXProgressBarView.app/YZXProgressBarView";
+			};
+			name = Release;
+		};
+		BD350EAA1E00EAFA00B4EE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZXProgressBarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.YZXProgressBarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZXProgressBarView;
+			};
+			name = Debug;
+		};
+		BD350EAB1E00EAFA00B4EE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZXProgressBarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.YZXProgressBarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZXProgressBarView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD350E711E00EAFA00B4EE70 /* Build configuration list for PBXProject "YZXProgressBarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD350EA11E00EAFA00B4EE70 /* Debug */,
+				BD350EA21E00EAFA00B4EE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD350EA31E00EAFA00B4EE70 /* Build configuration list for PBXNativeTarget "YZXProgressBarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD350EA41E00EAFA00B4EE70 /* Debug */,
+				BD350EA51E00EAFA00B4EE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD350EA61E00EAFA00B4EE70 /* Build configuration list for PBXNativeTarget "YZXProgressBarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD350EA71E00EAFA00B4EE70 /* Debug */,
+				BD350EA81E00EAFA00B4EE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD350EA91E00EAFA00B4EE70 /* Build configuration list for PBXNativeTarget "YZXProgressBarViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD350EAA1E00EAFA00B4EE70 /* Debug */,
+				BD350EAB1E00EAFA00B4EE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD350E6E1E00EAFA00B4EE70 /* Project object */;
+}
