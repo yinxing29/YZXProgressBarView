@@ -15,6 +15,7 @@
 		BD350E891E00EAFA00B4EE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD350E871E00EAFA00B4EE70 /* LaunchScreen.storyboard */; };
 		BD350E941E00EAFA00B4EE70 /* YZXProgressBarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD350E931E00EAFA00B4EE70 /* YZXProgressBarViewTests.m */; };
 		BD350E9F1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD350E9E1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.m */; };
+		BD350EAE1E00EB2200B4EE70 /* YZXProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD350EAD1E00EB2200B4EE70 /* YZXProgressBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BD350E9A1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZXProgressBarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD350E9E1E00EAFA00B4EE70 /* YZXProgressBarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXProgressBarViewUITests.m; sourceTree = "<group>"; };
 		BD350EA01E00EAFA00B4EE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD350EAC1E00EB2200B4EE70 /* YZXProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXProgressBarView.h; sourceTree = "<group>"; };
+		BD350EAD1E00EB2200B4EE70 /* YZXProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXProgressBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BD350E7D1E00EAFA00B4EE70 /* AppDelegate.m */,
 				BD350E7F1E00EAFA00B4EE70 /* ViewController.h */,
 				BD350E801E00EAFA00B4EE70 /* ViewController.m */,
+				BD350EAC1E00EB2200B4EE70 /* YZXProgressBarView.h */,
+				BD350EAD1E00EB2200B4EE70 /* YZXProgressBarView.m */,
 				BD350E821E00EAFA00B4EE70 /* Main.storyboard */,
 				BD350E851E00EAFA00B4EE70 /* Assets.xcassets */,
 				BD350E871E00EAFA00B4EE70 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					BD350E751E00EAFA00B4EE70 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 67FSYNPTAV;
 						ProvisioningStyle = Automatic;
 					};
 					BD350E8E1E00EAFA00B4EE70 = {
@@ -276,6 +282,7 @@
 				BD350E811E00EAFA00B4EE70 /* ViewController.m in Sources */,
 				BD350E7E1E00EAFA00B4EE70 /* AppDelegate.m in Sources */,
 				BD350E7B1E00EAFA00B4EE70 /* main.m in Sources */,
+				BD350EAE1E00EB2200B4EE70 /* YZXProgressBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67FSYNPTAV;
 				INFOPLIST_FILE = YZXProgressBarView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sdf.YZXProgressBarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67FSYNPTAV;
 				INFOPLIST_FILE = YZXProgressBarView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sdf.YZXProgressBarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +516,7 @@
 				BD350EA51E00EAFA00B4EE70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD350EA61E00EAFA00B4EE70 /* Build configuration list for PBXNativeTarget "YZXProgressBarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				BD350EA81E00EAFA00B4EE70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD350EA91E00EAFA00B4EE70 /* Build configuration list for PBXNativeTarget "YZXProgressBarViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				BD350EAB1E00EAFA00B4EE70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
